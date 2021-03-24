@@ -29,9 +29,11 @@ policy "enforce-mandatory-tags" {
 }
 
 policy "require-private-acl-and-kms-for-s3-bucket" {
+  source = "./require-private-acl-and-kms-for-s3-bucket.sentinel"
   enforcement_level = "soft-mandatory"
 }
 
 policy "restrict-s3-bucket-policies" {
+  source = "./restrict-s3-bucket-policies.sentinel"
   enforcement_level = "advisory"
 }
