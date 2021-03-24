@@ -6,6 +6,6 @@ variable "prefix" {
 variable "tags" {
   description = "Prefix added to unique bucket name"
   default     = {
-    Description = "HelloWorld"
+    Description = "HelloWorl2d"
   }
 }
