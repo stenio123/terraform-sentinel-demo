@@ -1,6 +1,6 @@
 variable "prefix" {
   description = "Prefix added to unique bucket name"
-  default     = "stenio"
+  default     = "steni"
 }
 
 variable "tags" {
