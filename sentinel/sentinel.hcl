@@ -38,5 +38,5 @@ policy "require-private-acl-and-kms-for-s3-buckets" {
 
 policy "restrict-s3-bucket-policies" {
   source = "./restrict-s3-bucket-policies.sentinel"
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "advisory"
 }
